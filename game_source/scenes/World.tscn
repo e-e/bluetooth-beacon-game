@@ -22,12 +22,11 @@ script = ExtResource( 3 )
 layer = 0
 
 [node name="Level" parent="." instance=ExtResource( 5 )]
-editor/display_folded = true
 
 [node name="CurrentLevel" parent="Level" instance=ExtResource( 6 )]
 
 [node name="AnimatedSprite" parent="Level/CurrentLevel/Player" index="0"]
-frame = 1
+frame = 10
 
 [node name="ParallaxBackgroundGrassyHill" parent="." instance=ExtResource( 7 )]
 
